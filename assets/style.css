@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?htql3r');
+  src:  url('fonts/icomoon.eot?htql3r#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?htql3r') format('truetype'),
+    url('fonts/icomoon.woff?htql3r') format('woff'),
+    url('fonts/icomoon.svg?htql3r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-office:before {
+  content: "\e903";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-address-book:before {
+  content: "\e944";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-undo2:before {
+  content: "\e967";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-mail3:before {
+  content: "\ea85";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}

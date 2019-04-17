@@ -1,0 +1,33 @@
+/**
+* CSS rules for my app
+**/
+[myApp] h2 {
+    color: rgba(240, 118, 118, 1);
+}
+
+[myApp] h2 i {
+    display: inline-block;
+    color: rgba(238, 25, 25, .5);
+    transform: scale(1) rotate(0);
+    transition: all 0.5s 0s ease-in;
+}
+
+[myApp] h2 i:hover {
+    color: rgba(238, 28, 28, 1);
+    transform: scale(1.2) rotate(180deg);
+}
+
+/**
+* Classe spécifique pour mise en surbrillance des sociétés
+**/
+.selected {
+    background-color: rgb(248, 86, 10)
+}
+
+.company ul {
+    display: none;
+}
+
+.no-display {
+    display: none;
+}

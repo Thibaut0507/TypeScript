@@ -3,11 +3,38 @@
     <head>
         <meta charset="utf-8">
         <title>UML par la pratique</title>
+
+        <!-- Bootstrap integration -->
+        <link 
+            href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        >
+
+        <!-- My Custom CSS Integration -->
+        <link
+            href="./assets/styles.css"
+            rel="stylesheet"
+        >
+
+        <!-- Icomoon CSS Integration -->
+        <link
+            href="./assets/style.css"
+            rel="stylesheet"
+        >
+        
     </head>
 
     <body>
-        <main myApp>
-        </main>
+        <!-- Main container for my app -->
+        <div class="container">
+            <main class ="row" myApp>
+                <footer class="click">
+                </footer>
+            </main>
+            <div class="click">
+            </div>
+            
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
         <script src="./build/bundle.js"></script>
     </body>
 </html>
