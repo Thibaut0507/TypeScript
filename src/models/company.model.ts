@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import { OutputInterface } from "../utils/output-interface";
 
+=======
+>>>>>>> 79858e55a554ea38e990e3e9bb5f004eedde5a7d
 /**
  * @name CompanyModel
  * @author Aélion
@@ -13,6 +16,7 @@ export class CompanyModel {
     private zipcode: string;
     private city: string;
 
+<<<<<<< HEAD
     private strategy: OutputInterface<CompanyModel>;
 
     public constructor(id: number) {
@@ -49,6 +53,29 @@ export class CompanyModel {
     public getAddress(): string {
         return this.address;
     }
+=======
+    public getId(): number {
+        return this.id;
+    }
+
+    public setId(id: number) {
+        this.id = id;
+    }
+
+    /**
+     * @param void
+     * @return string L'adresse de l'entreprise
+     */
+    public getAddress(): string {
+        return this.address;
+    }
+
+    /**
+     * 
+     * @param address Adresse à affecter à l'entreprise
+     * @return void
+     */
+>>>>>>> 79858e55a554ea38e990e3e9bb5f004eedde5a7d
     public setAddress(address: string) {
         this.address = address;
     }
@@ -56,6 +83,7 @@ export class CompanyModel {
     public setName(name: string) {
         this.name = name;
     }
+<<<<<<< HEAD
     public getName(): string {
         return this.name.toUpperCase();
     }
@@ -76,6 +104,35 @@ export class CompanyModel {
         } else if (howTo == 3) {
             output = '<h2><i class="icon-office"></i> ' + this.name + ' ' + this.zipcode + '</h2>'
         }
+=======
+
+    public getName(): string {
+        return this.name;
+    }
+
+    public setZipCode(zipcode: string) {
+        this.zipcode = zipcode;
+    }
+
+    public getZipCode(): string {
+        return this.zipcode;
+    }
+
+    public setCity(city: string) {
+        this.city = city;
+    }
+
+    public getCity(): string {
+        return this.city;
+    }
+
+    public toString(): string {
+        let output: string = '<div class="col-12 click" data-rel="' + this.id + '">';
+        output += '<h2><i class="icon-office"></i> ' + this.name + '</h2>';
+        output += this.address + '<br>';
+        output += this.zipcode + ' <em>' + this.city + '</em></div>';
+
+>>>>>>> 79858e55a554ea38e990e3e9bb5f004eedde5a7d
         return output;
     }
 }

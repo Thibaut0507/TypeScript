@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
 * CSS rules for my app
+=======
+* CSS rules for myApp
+>>>>>>> 79858e55a554ea38e990e3e9bb5f004eedde5a7d
 **/
 [myApp] h2 {
     color: rgba(240, 118, 118, 1);
@@ -7,6 +11,7 @@
 
 [myApp] h2 i {
     display: inline-block;
+<<<<<<< HEAD
     color: rgba(238, 25, 25, .5);
     transform: scale(1) rotate(0);
     transition: all 0.5s 0s ease-in;
@@ -14,14 +19,30 @@
 
 [myApp] h2 i:hover {
     color: rgba(238, 28, 28, 1);
+=======
+    color: rgb(238, 28, 28, .5);
+    transform: scale(1) rotate(0);
+    transition: all 0.3s 0s ease-in;
+}
+
+[myApp] h2 i:hover {
+    color: rgb(238, 28, 28, 1);
+>>>>>>> 79858e55a554ea38e990e3e9bb5f004eedde5a7d
     transform: scale(1.2) rotate(180deg);
 }
 
 /**
+<<<<<<< HEAD
 * Classe spécifique pour mise en surbrillance des sociétés
 **/
 .selected {
     background-color: rgb(248, 86, 10)
+=======
+* Classe spécifique pour mise en subrillance des sociétés
+**/
+.selected {
+    background-color: rgba(240, 118, 118, 1);
+>>>>>>> 79858e55a554ea38e990e3e9bb5f004eedde5a7d
 }
 
 .company ul {
