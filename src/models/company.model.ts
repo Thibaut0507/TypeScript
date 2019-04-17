@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 import { OutputInterface } from "../utils/output-interface";
 
-=======
->>>>>>> 79858e55a554ea38e990e3e9bb5f004eedde5a7d
 /**
  * @name CompanyModel
  * @author Aélion
